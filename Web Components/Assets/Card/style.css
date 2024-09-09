@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI, sans-serif;
+}
+
+.Card{
+    margin: 30px 0px 30px 0px;
+    width: 80%;
+    box-shadow: 1px 11px 26px 1px rgba(0,0,0,0.56);
+-webkit-box-shadow: 1px 11px 26px 1px rgba(0,0,0,0.56);
+-moz-box-shadow: 1px 11px 26px 1px rgba(0,0,0,0.56);
+    border-radius:40px;
+    background-color: rgb(46, 45, 45);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card_left{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    padding-left: 15px;
+}
+.card_left > span{
+    padding-left: 20px;
+}
+
+.card_left > h1{
+    padding-top: 15px;
+}
+
+.card_left > p{
+    color: gray;
+}
+
+.card_right > img{
+    width: 50%;
+}
